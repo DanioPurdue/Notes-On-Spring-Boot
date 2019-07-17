@@ -34,3 +34,24 @@ mail.credentials.username=john
 mail.credentials.password=password
 mail.credentials.authMethod=SHA1
 ```
+## Using `@ConfigurationProperties` and `@Bean` method.
+When we want to bind properties to a third-party component that is outside of our control
+```java
+public class Item {
+    private String name;
+    private int size;
+ 
+    // standard getters and setters
+}
+
+//where you apply beans
+@Configuration
+public class ConfigProperties {
+ 
+    @Bean
+    @ConfigurationProperties(prefix = "item")
+    public Item item() {
+        return new Item();
+    }
+}
+```
