@@ -1,4 +1,4 @@
-![image-20190709000158258](/Users/daniowang/OneDrive/GitHub/Notes-On-Spring-Boot/MVC_picture.png)
+![image-20190709000158258](MVC_picture.png)
 
 
 
