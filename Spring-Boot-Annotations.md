@@ -13,6 +13,7 @@ public class ConfigProperties {
     // standard getters and setters
 }
 ```
+Configuration property files can support hierarchical structure.
 ```shell
 #Simple properties
 mail.hostname=mailer@mail.com
