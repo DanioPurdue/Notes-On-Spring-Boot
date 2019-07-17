@@ -1,4 +1,5 @@
-`@ConfigurationProperties`
+
+[`@ConfigurationProperties`](https://www.baeldung.com/configuration-properties-in-spring-boot)
 Used on top of class. @ConfigurationProperties works best with hierarchical properties that all have the same prefix. So we add a prefix of mail.
 ```java
 public class ConfigProperties {
