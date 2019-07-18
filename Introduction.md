@@ -44,7 +44,7 @@ It is where the Application Class will be created and provides the base for comp
 
 
 
-![image-20190706233916429](/Users/daniowang/OneDrive/GitHub/Notes-On-Spring-Boot/annotation.png)
+![image-20190706233916429](annotation.png)
 
 ## Embedded Database and Configuration
 
@@ -103,11 +103,11 @@ Inversion of control: the class does not create the object. Instead, It let the 
 
 The Spring container is responsible for instantiating, configuring and assembling objects known as *beans*, as well as managing their lifecycle.
 
-![image-20190707164739533](/Users/daniowang/OneDrive/GitHub/Notes-On-Spring-Boot/constructor-based-injection.png)
+![image-20190707164739533](constructor-based-injection.png)
 
-![image-20190707164842086](/Users/daniowang/OneDrive/GitHub/Notes-On-Spring-Boot/property-based-injection.png)
+![image-20190707164842086](property-based-injection.png)
 
-![image-20190707164858743](/Users/daniowang/OneDrive/GitHub/Notes-On-Spring-Boot/setter-based-injection.png)
+![image-20190707164858743](setter-based-injection.png)
 
 ```java
 ApplicationContext ctx = SrpingApplciation.run(SpringBEanApplciation.class, args);
@@ -141,7 +141,7 @@ public User user() {
 
 ## Externalizaed Configuration
 
-![image-20190707185749942](/Users/daniowang/OneDrive/GitHub/Notes-On-Spring-Boot/external_configuration.png)
+![image-20190707185749942](external_configuration.png)
 
 ## Application.properties
 
