@@ -1,4 +1,19 @@
 
+## [Reference](https://www.baeldung.com/spring-bean-annotations)
+## `@ComponentScan`
+Automatically scan a package for beans if component scanning is enabled.
+
+## `@Component`
+By default, the bean instances of this class have the same name as the class name with a lowercase initial. On top of that, we can specify a different name using the optional value argument of this annotation.
+
+## `@Repository`
+DAO or Repository classes usually represent the database access layer in an application, and should be annotated with @Repository:
+## `@Service`
+The business logic of an application usually resides within the service layer – so we’ll use the @Service annotation to indicate that a class belongs to that layer:
+## `@Controller`
+@Controller is a class level annotation which tells the Spring Framework that this class serves as a controller in Spring MVC:
+
+
 [`@ConfigurationProperties`](https://www.baeldung.com/configuration-properties-in-spring-boot)
 Used on top of class. @ConfigurationProperties works best with hierarchical properties that all have the same prefix. So we add a prefix of mail.
 ```java
