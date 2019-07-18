@@ -43,3 +43,22 @@ public class DataSourceConfig {
 }
 ```
 
+```java
+public interface PostRepository extends CrudRepository<Post, Long> {
+
+}
+```
+JPA requires private no arg constructor.
+
+
+## Load Data Through a sql file
+`spring.datasource.platform=h2`
+then add your sql file then
+
+## Load Data systematically
+```java
+private void loadData() {
+  Author dv = new Author();
+  PostRepository save;
+}
+```
