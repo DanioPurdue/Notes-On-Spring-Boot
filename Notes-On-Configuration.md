@@ -26,6 +26,7 @@ enviroments:
 ```
 
 ### Profile example
+It only pick up functions based on certian profile
 ```java
 @Configuration
 public class DataSourceConfig {
@@ -43,22 +44,6 @@ public class DataSourceConfig {
 }
 ```
 
-```java
-public interface PostRepository extends CrudRepository<Post, Long> {
-
-}
-```
-JPA requires private no arg constructor.
+### Auto configuration
 
 
-## Load Data Through a sql file
-`spring.datasource.platform=h2`
-then add your sql file then
-
-## Load Data systematically
-```java
-private void loadData() {
-  Author dv = new Author();
-  PostRepository save;
-}
-```
